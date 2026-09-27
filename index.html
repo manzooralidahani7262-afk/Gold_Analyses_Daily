@@ -7,28 +7,31 @@
 </head>
 <body style="margin:0;background:#000;display:flex;justify-content:center;align-items:center;min-height:100vh;font-family:Arial,sans-serif;">
 
-<div style="background:#161616;border:1px solid #333;border-radius:24px;padding:32px 24px;width:84%;max-width:360px;text-align:center;">
+<div style="background:#161616;border:1px solid #333;border-radius:24px;padding:32px 24px;width:84%;max-width:360px;text-align:center;box-shadow:0 0 30px rgba(255,215,0,0.15);">
 
-<!-- اچھا والا پروفائل G -->
+<!-- پروفائل G - اچھا والا -->
 <div style="width:96px;height:96px;background:#FFD700;color:#000;font-size:52px;font-weight:900;border-radius:50%;display:flex;align-items:center;justify-content:center;margin:0 auto 18px;box-shadow:0 0 25px rgba(255,215,0,0.5);">G</div>
 
-<h2 style="color:#fff;margin:10px 0 6px;font-size:23px;letter-spacing:0.5px;">GOLD PIPS HUNTER</h2>
-
+<h2 style="color:#fff;margin:10px 0 6px;font-size:23px;">GOLD PIPS HUNTER</h2>
 <p style="color:#9aa0a6;font-size:13px;margin:0 0 26px;line-height:1.5;">Daily 4-6 Gold Market Study<br>For Education Only</p>
 
-<!-- صرف ایک ہی بٹن - JOIN FREE SIGNAL -->
-<a id="freeBtn" href="https://t.me/+j7ZQRmuNVwRmNDE8" style="display:block;background:#FFD700;color:#000;padding:18px 0;border-radius:14px;text-decoration:none;font-weight:900;font-size:18px;letter-spacing:0.5px;box-shadow:0 6px 20px rgba(255,215,0,0.35);">JOIN FREE SIGNAL</a>
+<!-- ایک ہی بٹن - JOIN VIP FREE SIGNAL - startapp والا -->
+<a id="vipBtn" href="https://t.me/forxsihxliBot?startapp" style="display:block;background:linear-gradient(135deg,#FFD700,#FFC000);color:#000;padding:18px 0;border-radius:14px;text-decoration:none;font-weight:900;font-size:17px;box-shadow:0 6px 20px rgba(255,215,0,0.4);letter-spacing:0.5px;">JOIN VIP FREE SIGNAL</a>
 
-<p style="color:#555;font-size:11px;margin-top:14px;">Bot & Channel Both Included</p>
+<p style="color:#555;font-size:11px;margin-top:12px;">Bot + Channel - Through Channel</p>
 
 </div>
 
 <script>
-// کلک پر پہلے چینل، پھر بوٹ
-document.getElementById('freeBtn').addEventListener('click', function(){
+// تھرو چینل والا سسٹم
+document.getElementById('vipBtn').addEventListener('click', function(e){
+e.preventDefault();
+// پہلے startapp بوٹ کھولیں
+window.location.href = 'https://t.me/forxsihxliBot?startapp';
+// 1 سیکنڈ بعد چینل بھی کھولیں تاکہ تھرو چینل ہو جائے
 setTimeout(function(){
-window.open('https://t.me/forxsihxliBot','_blank');
-}, 800);
+window.open('https://t.me/+j7ZQRmuNVwRmNDE8','_blank');
+}, 1000);
 });
 </script>
 
